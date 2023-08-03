@@ -1,4 +1,4 @@
-import { Locator, Page } from '@playwright/test';
+import { Locator, Page, ElementHandle } from '@playwright/test';
 
 export default class UIElementActions {
   constructor(private page: Page) {}
@@ -31,6 +31,11 @@ export default class UIElementActions {
 
   public async click(): Promise<UIElementActions> {
     await this.getFirstLocator().click();
+    return this;
+  }
+
+  public async sendKeys(text: string): Promise<UIElementActions> {
+    await this.getFirstLocator().type(text);
     return this;
   }
 

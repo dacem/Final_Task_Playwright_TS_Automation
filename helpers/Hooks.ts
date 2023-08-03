@@ -17,7 +17,6 @@ import UIActions from './UIActions';
 import CustomWorld from '../config/CustomWorld';
 import Log from './Logger';
 
-
 const envConfig = dotenv.config().parsed;
 setDefaultTimeout(Number.parseInt(envConfig.TEST_TIMEOUT, 10) * 60000);
 setWorldConstructor(CustomWorld);
@@ -59,7 +58,7 @@ After(async function ({ pickle, result }: ITestCaseHookParameter) {
   if (status === Status.FAILED) {
     const image = await this.page?.screenshot({
       path: `./test-results/screenshots/${scenario.split(' ').join('_')}.png`,
-      fullPage: true
+      fullPage: true,
     });
     await this.attach(image, 'image/png');
   }
@@ -71,5 +70,5 @@ After(async function ({ pickle, result }: ITestCaseHookParameter) {
 });
 
 BeforeStep(async function ({ pickleStep }: ITestStepHookParameter) {
-  Log.info(`${pickleStep.text.toUpperCase()}`)
-})
+  Log.info(`${pickleStep.text.toUpperCase()}`);
+});

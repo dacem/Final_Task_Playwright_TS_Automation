@@ -3,7 +3,7 @@ Feature: E2E Tests Suite To Cover SAUCEDEMO.COM Functionality
 	@FINAL_TASK
 	Scenario: User orders a product from the SwagLabs store	
   	Given User has opened Swag Labs website
-    #And User inputs username - "standard_user"
+    And User inputs username - "standard_user"
     #And User inputs password - "secret_sauce"
     #When User press the “Login” button
     #Then User is on Swag Labs products page

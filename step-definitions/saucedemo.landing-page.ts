@@ -5,7 +5,14 @@ Given(/^User has opened Swag Labs website$/, async function () {
   await new LandingPage(this.web).navigateToHomePage();
 });
 
-//Given User inputs username - "standard_user"
+Given(
+  /^User inputs username - "([^"]*)"$/,
+  async function (username) {
+    await new LandingPage(this.web).inputUsername(username);
+  },
+
+  // hoover, click, write
+);
 
 //Given User inputs password - "secret_sauce"
 

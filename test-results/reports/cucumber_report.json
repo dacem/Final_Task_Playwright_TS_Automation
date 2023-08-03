@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 784332800
+              "duration": 855856700
             }
           },
           {
@@ -27,7 +27,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1810023199
+              "duration": 2199820899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User inputs username - \"standard_user\"",
+            "match": {
+              "location": "step-definitions\\saucedemo.landing-page.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1286071800
             }
           },
           {
@@ -35,7 +48,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 144399800
+              "duration": 169415299
             }
           }
         ],

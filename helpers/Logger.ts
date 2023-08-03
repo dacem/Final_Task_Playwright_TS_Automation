@@ -9,7 +9,7 @@ const Logger = winston.createLogger({
         winston.format.align(),
         winston.format.printf(
           (info) => `${info.timestamp} ${info.level} ${info.message}`,
-          ),
+        ),
       ),
     }),
   ],
@@ -25,13 +25,16 @@ export default class Log {
   }
 
   public static testBegin(scenario: string): void {
-     this.printLogs(`Scenario: ${scenario}`, TEST_SEPARATOR);
+    this.printLogs(`Scenario: ${scenario}`, TEST_SEPARATOR);
   }
 
   public static testEnd(scenario: string, status: string): void {
     const status_emoji = status === 'PASSED' ? '✅' : '❌';
 
-    this.printLogs(`Scenario: ${scenario} - ${status} ${status_emoji}`, TEST_SEPARATOR,);
+    this.printLogs(
+      `Scenario: ${scenario} - ${status} ${status_emoji}`,
+      TEST_SEPARATOR,
+    );
   }
 
   public static info(message: string): void {
@@ -41,4 +44,4 @@ export default class Log {
   public static error(message: string): void {
     Logger.error(message);
   }
- }
+}
