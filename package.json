@@ -1,0 +1,16 @@
+{
+  "name": "final_task_playwright_ts_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx prettier --write .",
+    "test": "npx cucumber-js -p runner",
+    "test:tags": "npx cucumber-js -p runner --tags",
+    "report": "npx ts-node ./config/HTMLReporter.ts",
+    "test:generator": "npx playwright codegen https://www.saucedemo.com/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
