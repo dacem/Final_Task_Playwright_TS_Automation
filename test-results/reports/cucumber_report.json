@@ -6,7 +6,7 @@
         "description": "",
         "id": "e2e-tests-suite-to-cover-saucedemo.com-functionality;user-orders-a-product-from-the-swaglabs-store",
         "keyword": "Scenario",
-        "line": 4,
+        "line": 24,
         "name": "User orders a product from the SwagLabs store",
         "steps": [
           {
@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 724738200
+              "duration": 897092900
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1555429899
+              "duration": 1556398499
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1276672199
+              "duration": 1273038799
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1202078298
+              "duration": 1203360799
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 144814899
+              "duration": 117870700
             }
           }
         ],

@@ -3,8 +3,8 @@ Feature: E2E Tests Suite To Cover SAUCEDEMO.COM Functionality
 	@FINAL_TASK
 	Scenario: User orders a product from the SwagLabs store	
   	Given User has opened Swag Labs website
-    And User inputs username - "standard_user"
-    And User inputs password - "secret_sauce"
+    And User inputs username - "<username>"
+    And User inputs password - "<password>"
     #When User press the “Login” button
     #Then User is on Swag Labs products page
     #When User adds - "Sauce Labs Fleece Jacket" to the shopping cart
@@ -18,3 +18,7 @@ Feature: E2E Tests Suite To Cover SAUCEDEMO.COM Functionality
     #Then User sees that order has been completed
     #And User clicks on “Back Home” button
     #And User is on Swag Labs products page
+
+		Examples:
+				| username 			| password 			| # Header 3 |
+				| standard_user | secret_sauce  | # Value 3  |
