@@ -13,4 +13,6 @@ Given(/^User inputs password - "([^"]*)"$/, async function (password) {
   await new LandingPage(this.web).inputPassword(password);
 });
 
-//When User press the “Login” button
+When(/^User press the “Login” button$/, async function () {
+  await new LandingPage(this.web).pressLogin();
+});

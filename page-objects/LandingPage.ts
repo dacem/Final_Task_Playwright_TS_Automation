@@ -5,6 +5,7 @@ export default class LandingPage {
 
   private readonly _USERNAME = 'input[id="user-name"]';
   private readonly _PASSWORD = 'input[id="password"]';
+  private readonly _LOGIN_BUTTON = 'input[id="login-button"]';
 
   public async navigateToHomePage(): Promise<void> {
     await this.web.goto('https://www.saucedemo.com/');
@@ -20,5 +21,9 @@ export default class LandingPage {
     await this.web.element(this._PASSWORD).click;
     await this.web.element(this._PASSWORD).sendKeys(password);
     await this.web.timeout(10);
+  }
+
+  public async pressLogin(): Promise<void> {
+    await this.web.element(this._LOGIN_BUTTON).click;
   }
 }

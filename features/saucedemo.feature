@@ -5,11 +5,11 @@ Feature: E2E Tests Suite To Cover SAUCEDEMO.COM Functionality
   	Given User has opened Swag Labs website
     And User inputs username - "<username>"
     And User inputs password - "<password>"
-    #When User press the “Login” button
+    When User press the “Login” button
     #Then User is on Swag Labs products page
-    #When User adds - "Sauce Labs Fleece Jacket" to the shopping cart
+    #When User adds - "<product>" to the shopping cart
     #And User opens shopping cart
-    #Then User sees product - "Sauce Labs Fleece Jacket" with price - "$49.99"
+    #Then User sees product - "<product>" with price - "$49.99"
     #When User press “Checkout” button
     #And User fills the checkout information form
     #And User press the “Continue” button to continue with the order
@@ -20,5 +20,5 @@ Feature: E2E Tests Suite To Cover SAUCEDEMO.COM Functionality
     #And User is on Swag Labs products page
 
 		Examples:
-				| username 			| password 			| # Header 3 |
-				| standard_user | secret_sauce  | # Value 3  |
+		| username 			| password 			| #product 									|
+		| standard_user | secret_sauce  | #Sauce Labs Fleece Jacket |

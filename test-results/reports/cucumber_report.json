@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 897092900
+              "duration": 937672899
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1556398499
+              "duration": 1350516600
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1273038799
+              "duration": 1266447800
             }
           },
           {
@@ -53,7 +53,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1203360799
+              "duration": 1214281600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User press the “Login” button",
+            "match": {
+              "location": "step-definitions\\saucedemo.landing-page.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2577398
             }
           },
           {
@@ -61,7 +74,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 117870700
+              "duration": 138935600
             }
           }
         ],
