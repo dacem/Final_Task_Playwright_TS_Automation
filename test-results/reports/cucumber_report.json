@@ -1,0 +1,58 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "e2e-tests-suite-to-cover-saucedemo.com-functionality;user-orders-a-product-from-the-swaglabs-store",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User orders a product from the SwagLabs store",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 784332800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User has opened Swag Labs website",
+            "match": {
+              "location": "step-definitions\\saucedemo.landing-page.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1810023199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 144399800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FINAL_TASK",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "e2e-tests-suite-to-cover-saucedemo.com-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "E2E Tests Suite To Cover SAUCEDEMO.COM Functionality",
+    "tags": [],
+    "uri": "features\\saucedemo.feature"
+  }
+]
