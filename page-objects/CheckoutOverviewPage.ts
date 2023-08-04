@@ -5,23 +5,27 @@ export default class CheckoutOverviewPage {
   constructor(private web: UIActions) {}
 
   private readonly _CHECKOUT_OVERVIEW = 'div[id="checkout_summary_container"]';
-  //private readonly _CHECKOUT_PRODUCT_NAME = 'div[class="inventory_item_name"]';
-  //private readonly _CHECKOUT_PRODUCT_PRICE = 'div[class="inventory_item_price"]';
+  private readonly _CHECKOUT_PRODUCT_NAME = 'a[id="item_5_title_link"]';
+  // private readonly _CHECKOUT_PRODUCT_PRICE =
+  //   'div[class="inventory_item_price"]';
   private readonly _FINISH_BUTTON = 'button[id="finish"]';
 
   public async verifyCheckoutOverview(): Promise<void> {
     await this.web.element(this._CHECKOUT_OVERVIEW).waitTillVisible();
-    // const actualProductName = await this.web
+    await this.web.element(this._CHECKOUT_PRODUCT_NAME).waitTillVisible();
+    // if true - console.log message?
+
+    // const actualCheckoutProductName = await this.web
     //   .element(this._CHECKOUT_PRODUCT_NAME)
     //   .getFirstLocator()
     //   .textContent();
-    // const actualProductPrice = await this.web
+    // const actualCheckoutProductPrice = await this.web
     //   .element(this._CHECKOUT_PRODUCT_PRICE)
     //   .getFirstLocator()
     //   .textContent();
 
-    // await Assert.assertEquals(actualProductName, expectedProductName);
-    // await Assert.assertEquals(actualProductPrice, expectedProductPrice);
+    // await Assert.assertEquals(actualCheckoutProductName, expectedProductName);
+    // await Assert.assertEquals(actualCheckoutProductPrice, expectedProductPrice);
 
     await this.web.timeout(10);
   }
