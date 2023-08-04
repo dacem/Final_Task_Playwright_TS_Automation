@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 699476300
+              "duration": 755219600
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1788533898
+              "duration": 1251266399
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1275361698
+              "duration": 1265432798
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1195540800
+              "duration": 1190876198
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 261112198
+              "duration": 299238200
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1033587800
+              "duration": 1038247899
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1161524200
+              "duration": 1191961299
             }
           },
           {
@@ -101,11 +101,24 @@
             "line": 11,
             "name": "User opens shopping cart",
             "match": {
-              "location": "step-definitions\\saucedemo.shopping-cart.ts:5"
+              "location": "step-definitions\\saucedemo.shopping-cart.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 1175318799
+              "duration": 1175052900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User sees product - \"Sauce Labs Fleece Jacket\" with price - \"$49.99\"",
+            "match": {
+              "location": "step-definitions\\saucedemo.shopping-cart.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22362499
             }
           },
           {
@@ -113,7 +126,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 133725100
+              "duration": 149057299
             }
           }
         ],
