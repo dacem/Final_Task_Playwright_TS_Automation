@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 755219600
+              "duration": 773293799
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1251266399
+              "duration": 1795732899
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1265432798
+              "duration": 1261413599
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1190876198
+              "duration": 1193221500
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 299238200
+              "duration": 345884699
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1038247899
+              "duration": 1024680899
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1191961299
+              "duration": 1192488098
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1175052900
+              "duration": 1196379398
             }
           },
           {
@@ -118,7 +118,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22362499
+              "duration": 22620300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "User press “Checkout” button",
+            "match": {
+              "location": "step-definitions\\saucedemo.shopping-cart.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1183487699
             }
           },
           {
@@ -126,7 +139,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 149057299
+              "duration": 142707199
             }
           }
         ],

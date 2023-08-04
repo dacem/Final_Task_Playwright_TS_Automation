@@ -14,3 +14,8 @@ Then(
     );
   },
 );
+
+When(/^User press “Checkout” button$/, async function() {
+  await new ShoppingCart(this.web).pressCheckoutButton();
+  await this.web.timeout(10);
+});

@@ -7,6 +7,7 @@ export default class ShoppingCart {
   private readonly _SHOPPING_CART_BUTTON = 'div[id="shopping_cart_container"]';
   private readonly _CART_PRODUCT_NAME = 'div[class="inventory_item_name"]';
   private readonly _CART_PRODUCT_PRICE = 'div[class="inventory_item_price"]';
+  private readonly _CHECKOUT_BUTTON = 'button[id="checkout"]';
 
   public async navigateToShoppingCart() {
     await this.web.element(this._SHOPPING_CART_BUTTON).click();
@@ -28,5 +29,9 @@ export default class ShoppingCart {
 
     await Assert.assertEquals(actualProductName, expectedProductName);
     await Assert.assertEquals(actualProductPrice, expectedProductPrice);
+  }
+
+  public async pressCheckoutButton(): Promise<void>{
+    await this.web.element(this._CHECKOUT_BUTTON).click();
   }
 }
