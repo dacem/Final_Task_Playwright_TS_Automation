@@ -24,6 +24,6 @@ export default class LandingPage {
   }
 
   public async pressLogin(): Promise<void> {
-    await this.web.element(this._LOGIN_BUTTON).click;
+    await this.web.element(this._LOGIN_BUTTON).click();
   }
 }

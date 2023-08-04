@@ -24,7 +24,7 @@ export default class UIElementActions {
   public async waitTillVisible(timeout?: number): Promise<UIElementActions> {
     await this.getFirstLocator().waitFor({
       state: 'visible',
-      timeout: (timeout = 5000 ?? 10000),
+      timeout: (timeout = 10000 ?? 20000),
     });
     return this;
   }

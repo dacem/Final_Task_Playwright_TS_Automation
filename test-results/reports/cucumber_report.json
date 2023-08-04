@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 937672899
+              "duration": 608799400
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1350516600
+              "duration": 1321732798
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1266447800
+              "duration": 1264530399
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1214281600
+              "duration": 1199982199
             }
           },
           {
@@ -66,7 +66,33 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2577398
+              "duration": 284986199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User is on Swag Labs products page",
+            "match": {
+              "location": "step-definitions\\saucedemo.products-page.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1029141100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User adds - \"Sauce Labs Fleece Jacket\" to the shopping cart",
+            "match": {
+              "location": "step-definitions\\saucedemo.products-page.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1174218900
             }
           },
           {
@@ -74,7 +100,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 138935600
+              "duration": 117817599
             }
           }
         ],
