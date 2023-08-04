@@ -1,6 +1,6 @@
 import UIActions from '../helpers/UIActions';
 import Assert from '../helpers/Assert';
-import ShoppingCart from './ShoppingCart';
+//import ShoppingCart from './ShoppingCart';
 
 export default class CheckoutPage {
   constructor(private web: UIActions) {}
@@ -13,6 +13,7 @@ export default class CheckoutPage {
   //private readonly _CHECKOUT_PRODUCT_NAME = 'div[class="inventory_item_name"]';
   //private readonly _CHECKOUT_PRODUCT_PRICE = 'div[class="inventory_item_price"]';
   private readonly _FINISH_BUTTON = 'button[id="finish"]';
+  private readonly _ORDER_COMPLETED = 'div[id="checkout_complete_container"]';
 
   public async fillingCheckoutInformation(): Promise<void> {
     await this.web.element(this._FIRST_NAME).click;
@@ -46,7 +47,13 @@ export default class CheckoutPage {
   }
 
   public async pressFinishButton(): Promise<void> {
+    await this.web.element(this._FINISH_BUTTON).hover();
     await this.web.element(this._FINISH_BUTTON).click();
+    await this.web.timeout(10);
+  }
+
+  public async orderCompleted(): Promise<void> {
+    await this.web.element(this._ORDER_COMPLETED).waitTillVisible();
     await this.web.timeout(10);
   }
 }

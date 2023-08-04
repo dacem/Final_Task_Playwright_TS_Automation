@@ -22,3 +22,7 @@ When(
 When(/^User press the “Finish” button$/, async function () {
   await new CheckoutPage(this.web).pressFinishButton();
 });
+
+Then(/^User sees that order has been completed$/, async function () {
+  await new CheckoutPage(this.web).orderCompleted();
+});

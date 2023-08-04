@@ -34,6 +34,11 @@ export default class UIElementActions {
     return this;
   }
 
+  public async hover(): Promise<UIElementActions> {
+    await this.getFirstLocator().hover();
+    return this;
+  }
+
   public async sendKeys(text: string): Promise<UIElementActions> {
     await this.getFirstLocator().type(text);
     return this;
