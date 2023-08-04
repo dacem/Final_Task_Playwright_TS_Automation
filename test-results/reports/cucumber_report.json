@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 846568599
+              "duration": 672649599
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1213290598
+              "duration": 1527457798
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1282067598
+              "duration": 1289816099
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1195540098
+              "duration": 1202516100
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 305712499
+              "duration": 375588498
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1035506898
+              "duration": 1043390599
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1200822099
+              "duration": 1183370599
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1199206800
+              "duration": 1192508499
             }
           },
           {
@@ -118,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 21749198
+              "duration": 22522299
             }
           },
           {
@@ -131,7 +131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1185012099
+              "duration": 1174339698
             }
           },
           {
@@ -144,7 +144,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 555049699
+              "duration": 503640698
             }
           },
           {
@@ -157,7 +157,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1200105199
+              "duration": 1184359098
             }
           },
           {
@@ -166,11 +166,11 @@
             "line": 16,
             "name": "User sees correct product details in checkout overview",
             "match": {
-              "location": "step-definitions\\saucedemo.checkout-page.ts:15"
+              "location": "step-definitions\\saucedemo.checkout-overview-page.ts:4"
             },
             "result": {
               "status": "passed",
-              "duration": 1019681399
+              "duration": 1019427400
             }
           },
           {
@@ -179,11 +179,11 @@
             "line": 17,
             "name": "User press the “Finish” button",
             "match": {
-              "location": "step-definitions\\saucedemo.checkout-page.ts:22"
+              "location": "step-definitions\\saucedemo.checkout-overview-page.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 1336788299
+              "duration": 1311186398
             }
           },
           {
@@ -192,11 +192,11 @@
             "line": 18,
             "name": "User sees that order has been completed",
             "match": {
-              "location": "step-definitions\\saucedemo.checkout-page.ts:26"
+              "location": "step-definitions\\saucedemo.checkout-success-page.ts:4"
             },
             "result": {
               "status": "passed",
-              "duration": 1018691100
+              "duration": 1030537899
             }
           },
           {
@@ -205,11 +205,11 @@
             "line": 19,
             "name": "User clicks on “Back Home” button",
             "match": {
-              "location": "step-definitions\\saucedemo.checkout-page.ts:30"
+              "location": "step-definitions\\saucedemo.checkout-success-page.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 1183759599
+              "duration": 1201485299
             }
           },
           {
@@ -222,7 +222,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1018284199
+              "duration": 1027341898
             }
           },
           {
@@ -230,7 +230,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 126249099
+              "duration": 140525099
             }
           }
         ],
