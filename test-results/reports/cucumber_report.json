@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 652703999
+              "duration": 706696099
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1335811898
+              "duration": 1192219199
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1269701699
+              "duration": 1300347899
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1193088699
+              "duration": 1204237299
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 279741399
+              "duration": 266846399
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1035219800
+              "duration": 1032688999
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1175386399
+              "duration": 1176899898
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1165334599
+              "duration": 1205967900
             }
           },
           {
@@ -118,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27769598
+              "duration": 22296798
             }
           },
           {
@@ -131,7 +131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1182313698
+              "duration": 1192346500
             }
           },
           {
@@ -144,7 +144,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 525509299
+              "duration": 531601300
             }
           },
           {
@@ -157,7 +157,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1196454600
+              "duration": 1192251298
             }
           },
           {
@@ -170,7 +170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1028237599
+              "duration": 1023410699
             }
           },
           {
@@ -183,7 +183,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1324852699
+              "duration": 1333990200
             }
           },
           {
@@ -196,7 +196,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1020676498
+              "duration": 1013686198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User clicks on “Back Home” button",
+            "match": {
+              "location": "step-definitions\\saucedemo.checkout-page.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1187611698
             }
           },
           {
@@ -204,7 +217,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 121111699
+              "duration": 135477200
             }
           }
         ],

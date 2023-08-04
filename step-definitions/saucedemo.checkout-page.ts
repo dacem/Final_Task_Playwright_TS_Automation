@@ -26,3 +26,7 @@ When(/^User press the “Finish” button$/, async function () {
 Then(/^User sees that order has been completed$/, async function () {
   await new CheckoutPage(this.web).orderCompleted();
 });
+
+Then(/^User clicks on “Back Home” button$/, async function () {
+  await new CheckoutPage(this.web).clickBackHomeButton();
+});
