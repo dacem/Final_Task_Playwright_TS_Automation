@@ -31,7 +31,7 @@ export default class ShoppingCart {
     await Assert.assertEquals(actualProductPrice, expectedProductPrice);
   }
 
-  public async pressCheckoutButton(): Promise<void>{
+  public async pressCheckoutButton(): Promise<void> {
     await this.web.element(this._CHECKOUT_BUTTON).click();
   }
 }
