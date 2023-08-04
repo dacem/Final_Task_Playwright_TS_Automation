@@ -13,7 +13,7 @@ Feature: E2E Tests Suite To Cover SAUCEDEMO.COM Functionality
     When User press “Checkout” button
     And User fills the checkout information form
     And User press the “Continue” button to continue with the order
-    #And User sees correct product details in checkout overview
+    And User sees correct product details in checkout overview
     #And User press the “Finish” button
     #Then User sees that order has been completed
     #And User clicks on “Back Home” button

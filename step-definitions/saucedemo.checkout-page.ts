@@ -11,3 +11,10 @@ When(
     await new CheckoutPage(this.web).pressContinueButton();
   },
 );
+
+When(
+  /^User sees correct product details in checkout overview$/,
+  async function () {
+    await new CheckoutPage(this.web).verifyCheckoutOverview();
+  },
+);
