@@ -17,7 +17,7 @@ Feature: E2E Tests Suite To Cover SAUCEDEMO.COM Functionality
     And User press the “Finish” button
     Then User sees that order has been completed
     And User clicks on “Back Home” button
-    #And User is on Swag Labs products page
+    And User is on Swag Labs products page
 
 		Examples:
 		| username 			| password 			| expectedProductName			 | expectedProductPrice |

@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 706696099
+              "duration": 846568599
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1192219199
+              "duration": 1213290598
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1300347899
+              "duration": 1282067598
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1204237299
+              "duration": 1195540098
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 266846399
+              "duration": 305712499
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1032688999
+              "duration": 1035506898
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1176899898
+              "duration": 1200822099
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1205967900
+              "duration": 1199206800
             }
           },
           {
@@ -118,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22296798
+              "duration": 21749198
             }
           },
           {
@@ -131,7 +131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1192346500
+              "duration": 1185012099
             }
           },
           {
@@ -144,7 +144,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 531601300
+              "duration": 555049699
             }
           },
           {
@@ -157,7 +157,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1192251298
+              "duration": 1200105199
             }
           },
           {
@@ -170,7 +170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1023410699
+              "duration": 1019681399
             }
           },
           {
@@ -183,7 +183,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1333990200
+              "duration": 1336788299
             }
           },
           {
@@ -196,7 +196,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1013686198
+              "duration": 1018691100
             }
           },
           {
@@ -209,7 +209,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1187611698
+              "duration": 1183759599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User is on Swag Labs products page",
+            "match": {
+              "location": "step-definitions\\saucedemo.products-page.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1018284199
             }
           },
           {
@@ -217,7 +230,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 135477200
+              "duration": 126249099
             }
           }
         ],
