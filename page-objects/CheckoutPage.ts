@@ -1,6 +1,5 @@
 import UIActions from '../helpers/UIActions';
 import Assert from '../helpers/Assert';
-//import ShoppingCart from './ShoppingCart';
 
 export default class CheckoutPage {
   constructor(private web: UIActions) {}
