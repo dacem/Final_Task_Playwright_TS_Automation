@@ -8,7 +8,7 @@ Feature: E2E Tests Suite To Cover SAUCEDEMO.COM Functionality
     When User press the “Login” button
     Then User is on Swag Labs products page
     When User adds - "Sauce Labs Fleece Jacket" to the shopping cart
-    #And User opens shopping cart
+    And User opens shopping cart
     #Then User sees product - "<product>" with price - "$49.99"
     #When User press “Checkout” button
     #And User fills the checkout information form

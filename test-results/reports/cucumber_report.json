@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 608799400
+              "duration": 699476300
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1321732798
+              "duration": 1788533898
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1264530399
+              "duration": 1275361698
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1199982199
+              "duration": 1195540800
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 284986199
+              "duration": 261112198
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1029141100
+              "duration": 1033587800
             }
           },
           {
@@ -92,7 +92,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1174218900
+              "duration": 1161524200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User opens shopping cart",
+            "match": {
+              "location": "step-definitions\\saucedemo.shopping-cart.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1175318799
             }
           },
           {
@@ -100,7 +113,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 117817599
+              "duration": 133725100
             }
           }
         ],
