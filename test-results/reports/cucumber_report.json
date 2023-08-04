@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 734163699
+              "duration": 748749300
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1331465200
+              "duration": 1278571099
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1272334399
+              "duration": 1257416498
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1192990300
+              "duration": 1263061999
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 274640898
+              "duration": 291724598
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1030599999
+              "duration": 1025408899
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1184122698
+              "duration": 1192493699
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1187103799
+              "duration": 1186603200
             }
           },
           {
@@ -118,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22902599
+              "duration": 24802499
             }
           },
           {
@@ -131,7 +131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1200652299
+              "duration": 1171669298
             }
           },
           {
@@ -144,7 +144,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 546449398
+              "duration": 518229600
             }
           },
           {
@@ -157,7 +157,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1197989200
+              "duration": 1206654600
             }
           },
           {
@@ -170,7 +170,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1019836100
+              "duration": 1019476198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User press the “Finish” button",
+            "match": {
+              "location": "step-definitions\\saucedemo.checkout-page.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1201910599
             }
           },
           {
@@ -178,7 +191,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 172102000
+              "duration": 212018899
             }
           }
         ],

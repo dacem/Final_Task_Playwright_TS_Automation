@@ -18,3 +18,7 @@ When(
     await new CheckoutPage(this.web).verifyCheckoutOverview();
   },
 );
+
+When(/^User press the “Finish” button$/, async function () {
+  await new CheckoutPage(this.web).pressFinishButton();
+});
