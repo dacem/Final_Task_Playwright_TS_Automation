@@ -5,8 +5,7 @@ export default class ProductsPage {
 
   private readonly _PRODUCTS = 'span[class="title"]';
   private readonly _PRODUCT_LIST = 'div[class="inventory_list"]';
-  private readonly _ADD_TO_CART_BUTTON =
-    'button[id="add-to-cart-sauce-labs-fleece-jacket"]';
+  private readonly _ADD_TO_CART_BUTTON = `button[data-test^="add-to-cart-%productName%"]`;
 
   private _SELECTED_PRODUCT: string;
 
@@ -17,11 +16,11 @@ export default class ProductsPage {
 
   public async addProductToCart(product: string): Promise<void> {
     await this.web.element(this._PRODUCT_LIST).waitTillVisible();
-    const selected_product = await this.web.element(this._PRODUCT_LIST).getByAltText(product);
-    const item_selection = await this.web
-      .element(this._ADD_TO_CART_BUTTON)
-      .waitTillVisible();
-    await this.web.element(this._ADD_TO_CART_BUTTON).click();
+
+    const productNameFormatted = product.toLowerCase().split(' ').join('-');
+    const addToCartButtonSelector = this._ADD_TO_CART_BUTTON.replace('%productName%', productNameFormatted);
+    const addToCartButton = await this.web.element(addToCartButtonSelector);
+    await addToCartButton.click();
     await this.web.timeout(10);
   }
 }  

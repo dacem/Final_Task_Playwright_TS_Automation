@@ -9,7 +9,6 @@ export default class CheckoutPage {
 
   public async orderCompleted(): Promise<void> {
     await this.web.element(this._ORDER_COMPLETED).waitTillVisible();
-    await this.web.timeout(10);
   }
 
   public async clickBackHomeButton(): Promise<void> {
