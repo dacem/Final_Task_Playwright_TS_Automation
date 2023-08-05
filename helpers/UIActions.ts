@@ -7,6 +7,7 @@ export default class UIActions {
   }
 
   private elementAction: UIElementActions;
+  locator;
 
   /**
    * Navigate to specified URL
@@ -30,5 +31,9 @@ export default class UIActions {
 
   public async timeout(seconds: number): Promise<void> {
     await this.page.waitForTimeout((seconds = 1000));
+  }
+
+  async textContent(): Promise<string> {
+    return await this.locator.textContent();
   }
 }

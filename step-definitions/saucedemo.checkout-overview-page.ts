@@ -4,7 +4,8 @@ import CheckoutOverviewPage from '../page-objects/CheckoutOverviewPage';
 When(
   /^User sees correct product details in checkout overview$/,
   async function () {
-    await new CheckoutOverviewPage(this.web).verifyCheckoutOverview();
+    const expectedProductName = 'Sauce Labs Fleece Jacket';
+    const isCorrectProduct = await new CheckoutOverviewPage(this.web).verifyCheckoutOverview(expectedProductName);
   },
 );
 
