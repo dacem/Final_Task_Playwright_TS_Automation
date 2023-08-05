@@ -1,4 +1,4 @@
-import { Given, When, Then } from '@cucumber/cucumber';
+import { Given, When } from '@cucumber/cucumber';
 import LandingPage from '../page-objects/LandingPage';
 
 Given(/^User has opened Swag Labs website$/, async function () {

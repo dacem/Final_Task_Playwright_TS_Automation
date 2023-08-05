@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 841859799
+              "duration": 856708800
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1725463699
+              "duration": 2462264598
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1278935200
+              "duration": 1261055799
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1200793399
+              "duration": 1206493400
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 286194098
+              "duration": 288378099
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1042915399
+              "duration": 1044158700
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1190242198
+              "duration": 1185914900
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1200106998
+              "duration": 1182725000
             }
           },
           {
@@ -118,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24453800
+              "duration": 21363700
             }
           },
           {
@@ -131,7 +131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1188720399
+              "duration": 1192314399
             }
           },
           {
@@ -144,7 +144,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 517646799
+              "duration": 515615298
             }
           },
           {
@@ -157,7 +157,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1196386698
+              "duration": 1199694500
             }
           },
           {
@@ -170,7 +170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20429600
+              "duration": 20652899
             }
           },
           {
@@ -179,11 +179,11 @@
             "line": 17,
             "name": "User press the “Finish” button",
             "match": {
-              "location": "step-definitions\\saucedemo.checkout-overview-page.ts:12"
+              "location": "step-definitions\\saucedemo.checkout-overview-page.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 1333080000
+              "duration": 1325162199
             }
           },
           {
@@ -196,7 +196,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19435799
+              "duration": 15521199
             }
           },
           {
@@ -209,7 +209,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1195046598
+              "duration": 1193961699
             }
           },
           {
@@ -222,7 +222,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1024719598
+              "duration": 1020705499
             }
           },
           {
@@ -230,7 +230,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 129878199
+              "duration": 152625099
             }
           }
         ],

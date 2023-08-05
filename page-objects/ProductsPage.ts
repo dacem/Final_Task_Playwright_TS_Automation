@@ -18,9 +18,12 @@ export default class ProductsPage {
     await this.web.element(this._PRODUCT_LIST).waitTillVisible();
 
     const productNameFormatted = product.toLowerCase().split(' ').join('-');
-    const addToCartButtonSelector = this._ADD_TO_CART_BUTTON.replace('%productName%', productNameFormatted);
+    const addToCartButtonSelector = this._ADD_TO_CART_BUTTON.replace(
+      '%productName%',
+      productNameFormatted,
+    );
     const addToCartButton = await this.web.element(addToCartButtonSelector);
     await addToCartButton.click();
     await this.web.timeout(10);
   }
-}  
+}

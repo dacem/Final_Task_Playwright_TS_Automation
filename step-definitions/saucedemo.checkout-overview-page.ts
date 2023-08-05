@@ -1,11 +1,13 @@
-import { Given, When, Then } from '@cucumber/cucumber';
+import { When } from '@cucumber/cucumber';
 import CheckoutOverviewPage from '../page-objects/CheckoutOverviewPage';
 
 When(
   /^User sees correct product details in checkout overview$/,
   async function () {
     const expectedProductName = 'Sauce Labs Fleece Jacket';
-    const isCorrectProduct = await new CheckoutOverviewPage(this.web).verifyCheckoutOverview(expectedProductName);
+    const isCorrectProduct = await new CheckoutOverviewPage(
+      this.web,
+    ).verifyCheckoutOverview(expectedProductName);
   },
 );
 

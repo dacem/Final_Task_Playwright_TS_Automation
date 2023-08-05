@@ -1,4 +1,4 @@
-import { Given, When, Then } from '@cucumber/cucumber';
+import { Then } from '@cucumber/cucumber';
 import CheckoutSuccessPage from '../page-objects/CheckoutSuccessPage';
 
 Then(/^User sees that order has been completed$/, async function () {

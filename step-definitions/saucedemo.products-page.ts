@@ -1,4 +1,4 @@
-import { Given, When, Then } from '@cucumber/cucumber';
+import { When, Then } from '@cucumber/cucumber';
 import ProductsPage from '../page-objects/ProductsPage';
 
 Then(/^User is on Swag Labs products page$/, async function () {

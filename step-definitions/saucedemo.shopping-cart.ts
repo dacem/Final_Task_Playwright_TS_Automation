@@ -1,4 +1,4 @@
-import { Given, When, Then } from '@cucumber/cucumber';
+import { When, Then } from '@cucumber/cucumber';
 import ShoppingCart from '../page-objects/ShoppingCart';
 
 When(/^User opens shopping cart$/, async function () {

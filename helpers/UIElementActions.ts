@@ -58,6 +58,5 @@ export default class UIElementActions {
 
   public async textContent(text: string): Promise<string> {
     return await this.locator.textContent();
-  };
-
+  }
 }
