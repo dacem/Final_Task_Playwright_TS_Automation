@@ -5,9 +5,6 @@ Then(/^User is on Swag Labs products page$/, async function () {
   await new ProductsPage(this.web).navigateToProductsPage();
 });
 
-When(
-  /^User adds - "Sauce Labs Fleece Jacket" to the shopping cart$/,
-  async function () {
-    await new ProductsPage(this.web).addProductToCart();
-  },
-);
+When(/^User adds - "([^"]*)" to the shopping cart$/, async function (product) {
+  await new ProductsPage(this.web).addProductToCart(product);
+});

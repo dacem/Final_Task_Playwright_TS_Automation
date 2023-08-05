@@ -51,4 +51,8 @@ export default class UIElementActions {
   public async getAttribute(attribute: string): Promise<string> {
     return await this.locator.getAttribute(attribute);
   }
+
+  public async getByAltText(text: string): Promise<any> {
+    return await this.locator.getByAltText(text);
+  }
 }
