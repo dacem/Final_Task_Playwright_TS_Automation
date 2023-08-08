@@ -10,11 +10,11 @@ export default class CheckoutPage {
 
   public async fillingCheckoutInformation(): Promise<void> {
     await this.web.element(this._FIRST_NAME).click;
-    await this.web.element(this._FIRST_NAME).sendKeys('Dace');
+    await this.web.element(this._FIRST_NAME).fill('Dace');
     await this.web.element(this._LAST_NAME).click;
-    await this.web.element(this._LAST_NAME).sendKeys('Mušperte');
+    await this.web.element(this._LAST_NAME).fill('Mušperte');
     await this.web.element(this._POSTAL_CODE).click;
-    await this.web.element(this._POSTAL_CODE).sendKeys('LV4202');
+    await this.web.element(this._POSTAL_CODE).fill('LV4202');
   }
 
   public async pressContinueButton(): Promise<void> {

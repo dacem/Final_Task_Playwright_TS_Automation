@@ -13,13 +13,13 @@ export default class LandingPage {
 
   public async inputUsername(username: string): Promise<void> {
     await this.web.element(this._USERNAME).click;
-    await this.web.element(this._USERNAME).sendKeys(username);
+    await this.web.element(this._USERNAME).fill(username);
     await this.web.timeout(10);
   }
 
   public async inputPassword(password: string): Promise<void> {
     await this.web.element(this._PASSWORD).click;
-    await this.web.element(this._PASSWORD).sendKeys(password);
+    await this.web.element(this._PASSWORD).fill(password);
     await this.web.timeout(10);
   }
 
